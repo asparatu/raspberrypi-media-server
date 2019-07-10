@@ -66,6 +66,35 @@ media_dir=P,/media/storage/pictures
 media_dir=A,/media/storage/music
 ```
 
+Enable the logging on the media server buy removing to **#** next to **log_level**, **db_dir**, **log_dir**, **inotify**, **minissdpdsocket**, **album_art_names** and leave the default values.
+
+We need to change the value and enable **notify_interval** like before remove **#** to enable and change the value to **300**.
+
+```bash
+notify_interval=300
+```
+
+Set the name that will show up on the clients. Just remove the **#** to enable and the name can have spaces in them like my example.
+
+```bash
+friendly_name=Test Server
+```
+
+Save the file by pressing **ctrl + x**, press **Y** and press **Enter**
+
+Restart the service by using this command:
+
+```bash
+sudo service minidlna restart
+```
+
+If does not work you can force to restart by using this command:
+
+```bash
+sudo service minidlna force-reload
+```
+
+If you do not have VLC media player installed, open Windows Media Player and goto playlist and you should see your server name listed under **Other Libraries**.
 
 ## Authors
 
