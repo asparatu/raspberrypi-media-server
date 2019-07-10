@@ -32,6 +32,41 @@ We are going install the miniDLNA server now. The installation is easy and shoul
 sudo apt-get install minidlna -y
 ```
 
+### How to configure the Media Server
+
+In order to configure the media server, we need to edit the configuration file. We do it by entering this command.
+
+```bash
+sudo nano /etc/minidlna.conf
+```
+
+Since, we are going to make so streams videos, we have to change the **media_dir** path to point the torrent complete directory, if you are using this on the torrent Server, but if not will be on the what directory you would like to use.
+
+The is examples of how you can configure the different **media_dir**.
+
+```bash
+#   * "A" for audio    (eg. media_dir=A,/var/lib/minidlna/music)
+#   * "P" for pictures (eg. media_dir=P,/var/lib/minidlna/pictures)
+#   * "V" for video    (eg. media_dir=V,/var/lib/minidlna/videos)
+```
+
+To configure for the videos we will use the third option in the examples.
+
+```bash
+media_dir=V,/media/storage/torrent/complete
+```
+
+**Note**: You can have more then one **media_dir** in the config file, but you need to prefix the path with **A,** or **P,** like in the example.
+
+If would looks something like this:
+
+```bash
+media_dir=V,/media/storage/torrent/complete
+media_dir=P,/media/storage/pictures
+media_dir=A,/media/storage/music
+```
+
+
 ## Authors
 
 **Shane Saunders** - *Initial work* - [asparatu](https://github.com/asparatu)
