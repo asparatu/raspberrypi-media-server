@@ -66,7 +66,7 @@ media_dir=P,/media/storage/pictures
 media_dir=A,/media/storage/music
 ```
 
-Enable the logging on the media server buy removing to **#** next to and leave the default values.
+We are going to enable few setting by removing the **#** front of the names, but do not change the default values.
 
 * **log_level**
 * **db_dir**
