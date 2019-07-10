@@ -66,7 +66,14 @@ media_dir=P,/media/storage/pictures
 media_dir=A,/media/storage/music
 ```
 
-Enable the logging on the media server buy removing to **#** next to **log_level**, **db_dir**, **log_dir**, **inotify**, **minissdpdsocket**, **album_art_names** and leave the default values.
+Enable the logging on the media server buy removing to **#** next to and leave the default values.
+
+* **log_level**
+* **db_dir**
+* **log_dir**
+* **inotify**
+* **minissdpdsocket**
+* **album_art_names**
 
 We need to change the value and enable **notify_interval** like before remove **#** to enable and change the value to **300**.
 
@@ -99,7 +106,6 @@ If you do not have VLC media player installed, open Windows Media Player and got
 ## Authors
 
 **Shane Saunders** - *Initial work* - [asparatu](https://github.com/asparatu)
-
 
 ## License
 
