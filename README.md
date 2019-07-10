@@ -8,7 +8,7 @@ These instructions will specifically show how to setup video streaming.
 If you followed my instruction on how to setup [Torrent Server](https://github.com/asparatu/raspberrypi-transmission-daemon-client), you will be able to use the same Raspberry Pi as media server.
 
 **Disclaimer** \
-I will assume you already have Rasbian Lite with being fully updated and you can connect to the RPi via ssh server. This will not show how to install Rasbian OS first then how to install media server.
+I will assume you already have Rasbian Lite installed and you can connect to the RPi via ssh server. This will not show how to install Rasbian OS. I will only show you how to install media server and to configure it.
 
 ### Media Players
 
