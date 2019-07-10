@@ -10,3 +10,12 @@ If you followed my instruction on how to setup [Torrent Server](https://github.c
 ### Media Players
 
 In order to watch the stream from media server, you can use [VLC media player](https://www.videolan.org/vlc/) or [Windows Media Player](https://www.microsoft.com/en-us/download/windows-media-player-details.aspx). VLC media player is good, but in order to see newly added videos you need to close VLC and reopen it. Windows Media Player automatically updates the streams play list.
+
+## Authors
+
+**Shane Saunders** - *Initial work* - [asparatu](https://github.com/asparatu)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
